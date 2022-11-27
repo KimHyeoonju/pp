@@ -1,0 +1,23 @@
+{
+  "name": "pp",
+  "version": "1.0.0",
+  "description": "<br/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KimHyeoonju/pp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KimHyeoonju/pp/issues"
+  },
+  "homepage": "https://github.com/KimHyeoonju/pp#readme",
+  "dependencies": {
+    "react-router-dom": "^6.4.3"
+  }
+}
