@@ -243,11 +243,11 @@ export const Recommend = ({ page, handleAddImage, getIngredient }) => {
           </div>
           {page ? (
             <StyledLink to={ingredient.data.length > 0 && login ? "/result" : "/recommend"} onClick={handleClick}>
-              <Button text="레시피 찾기" bgcolor="yellow" txtcolor="black" width="180px" />
+              <Button text="레시피 찾기" bgcolor="skyblue" txtcolor="black" width="180px" />
             </StyledLink>
           ) : (
             <span onClick={hanldeAddIngredient}>
-              <Button text="식재료 추가하기" bgcolor="yellow" txtcolor="black" width="180px" />
+              <Button text="식재료 추가하기" bgcolor="skyblue" txtcolor="black" width="180px" />
             </span>
           )}
         </div>

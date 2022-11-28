@@ -80,7 +80,7 @@ const Header = () => {
             setMenutoggle(false);
           }}>
           <Img />
-          <div className="logo">어쩔냉장고</div>
+          <div className="logo">냉장고 매니저</div>
         </LogoWrapper>
         <div className="nav">
           <CommonNav />
@@ -89,7 +89,7 @@ const Header = () => {
           {loginCheck ? (
             <>
               <div className="auth" onClick={handleLogout}>
-                <Button width="104px" height="45px" text="Logout" bgcolor="yellow" txtcolor="black" round="round" />
+                <Button width="104px" height="45px" text="Logout" bgcolor="skyblue" txtcolor="black" round="round" />
               </div>
               <StyledLink
                 to="/mypage"
@@ -106,7 +106,7 @@ const Header = () => {
           ) : (
             <>
               <StyledLink to="/login" className="auth">
-                <Button text="Login / Sign up" bgcolor="yellow" txtcolor="black" />
+                <Button text="Login / Sign up" bgcolor="skyblue" txtcolor="black" />
               </StyledLink>
               <StyledLink
                 to="/login"
@@ -136,7 +136,7 @@ const StWrapper = styled.header`
   align-items: center;
   padding-right: 36px;
   height: 5rem;
-  background: ${({ theme }) => theme.color.yellow};
+  background: ${({ theme }) => theme.color.skyblue};
   & > span,
   svg {
     cursor: pointer;

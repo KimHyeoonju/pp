@@ -6,7 +6,7 @@ import { Button } from "../common/Button";
 import { useRecoilValue } from "recoil";
 import { loginState } from "../../store/atom";
 
-const categoryColor = ["#DD95A1", "#FFC750", "#F7941E", "#79B3DA", "#8CC1AC", "#7E77AD", "#587297"];
+const categoryColor = ["#DD95A1", "#B2D7FC", "#F7941E", "#79B3DA", "#8CC1AC", "#7E77AD", "#587297"];
 
 export const RefrigeIngredient = ({ ingredient, handleTap1 }) => {
   const login = useRecoilValue(loginState);

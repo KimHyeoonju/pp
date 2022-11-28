@@ -424,7 +424,7 @@ const TimeoverAlert = styled.span`
     display: none;
     width: 140px;
     word-break: keep-all;
-    background-color: ${({ theme }) => theme.color.yellow};
+    background-color: ${({ theme }) => theme.color.skyblue};
     padding: 4px;
     position: absolute;
     bottom: -56px;
