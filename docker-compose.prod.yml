@@ -5,7 +5,7 @@ services:
     build: ./db
     environment:
       MYSQL_ROOT_PASSWORD: "password"
-      MYSQL_DATABASE: Gokuma
+      MYSQL_DATABASE: rm
     command:
       - --character-set-server=utf8
       - --collation-server=utf8_unicode_ci

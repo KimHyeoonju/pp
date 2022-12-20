@@ -18,7 +18,7 @@ class RelatedBookmark(Resource):
         user = None
         result = {"result_msg": "success", "data": []}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
         # session['email'] = None
 
         if session.get('email'):

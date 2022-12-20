@@ -18,7 +18,7 @@ class Contents(Resource):
         user = None
         result = {"result_msg": "success", "data": []}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
 
         if session.get('email'):
             email = session['email']
@@ -46,7 +46,7 @@ class Contents(Resource):
         user = None
         result = {"result_msg": "success", "data": []}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
         # session['email'] = None
 
         if session.get('email'):
@@ -84,7 +84,7 @@ class Save(Resource):
         user = None
         result = {"result_msg": "success"}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
 
         if session.get('email'):
             email = session['email']
@@ -136,7 +136,7 @@ class IngrdTime(Resource):
         user = None
         result = {"result_msg": "success", "data": []}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
 
         if session.get('email'):
             email = session['email']
@@ -170,7 +170,7 @@ class DeleteItem(Resource):
         user = None
         result = {"result_msg": "success", "data": []}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
         # session['email'] = None
 
         if session.get('email'):

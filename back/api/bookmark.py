@@ -16,7 +16,7 @@ class BookmarkList(Resource):
         user = None
         result = {"result_msg": "success", "data": []}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
 
         if session.get('email'):
             email = session['email']
@@ -48,7 +48,7 @@ class BookmarkCheck(Resource):
         user = None
         result = {"result_msg": "success"}
 
-        # session['email'] = "admin@gokuma.com"
+        # session['email'] = "admin@rm.com"
 
         if session.get('email'):
             email = session['email']

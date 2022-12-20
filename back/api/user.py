@@ -10,8 +10,8 @@ from api_model.user_model import user_api, user_signup_model, user_login_model, 
 @user_api.route('/temp', doc=False)
 class testUserApi(Resource):
     def get(self):
-        gokuma = User.query.filter(User.name == 'gokuma').first()
-        return str(gokuma.name)
+        rm = User.query.filter(User.name == 'rm').first()
+        return str(rm.name)
 
 
 @user_api.route('/signup')

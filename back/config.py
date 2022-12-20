@@ -1,5 +1,5 @@
 # ORM
-SQLALCHEMY_DATABASE_URI='mysql+pymysql://root:password@db/Gokuma'
+SQLALCHEMY_DATABASE_URI='mysql+pymysql://root:password@db/rm'
 SQLALCHEMY_TRACK_MODIFICATIONS=False
 
 # etc config
