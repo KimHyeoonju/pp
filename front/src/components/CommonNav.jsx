@@ -6,11 +6,10 @@ import { media } from "../styles/theme";
 export default function CommonNav({ mobileMenuToggle }) {
   const navigate = useNavigate();
   const LOGINNAVS = [
-    { id: 0, navText: "레시피 추천받기", navigate: () => navigate("recommend") },
+    { id: 0, navText: "레시피 추천", navigate: () => navigate("recommend") },
     { id: 1, navText: "나의 냉장고", navigate: () => navigate("refrige") },
     { id: 2, navText: "즐겨찾는 레시피", navigate: () => navigate("bookmark") },
-    { id: 3, navText: "장보기 리스트", navigate: () => navigate("shoppinglist") },
-    { id: 4, navText: "팀 소개", navigate: () => navigate("teamIntro") },
+    { id: 3, navText: "장보기 리스트", navigate: () => navigate(/* "shoppinglist" */), },
   ];
 
   return (

@@ -6,7 +6,7 @@ import { Button } from "../common/Button";
 import { useRecoilValue } from "recoil";
 import { loginState } from "../../store/atom";
 
-const categoryColor = ["#DD95A1", "#B2D7FC", "#F7941E", "#79B3DA", "#8CC1AC", "#7E77AD", "#587297"];
+const categoryColor = ["#DD95A1", "#FFC750", "#F7941E", "#79B3DA", "#8CC1AC", "#7E77AD", "#587297"];
 
 export const RefrigeIngredient = ({ ingredient, handleTap1 }) => {
   const login = useRecoilValue(loginState);
@@ -24,7 +24,7 @@ export const RefrigeIngredient = ({ ingredient, handleTap1 }) => {
             재료를 저장하고, 냉장고의 재료를 최대한 이용한 레시피를 추천받을 수 있습니다!
             <br />
             <br />
-            추천 받으러 가기 ->
+            추천 받으러 가기 
           </Link>
         )}
         {login &&

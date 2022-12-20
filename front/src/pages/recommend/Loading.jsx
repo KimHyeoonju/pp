@@ -10,10 +10,14 @@ const Loading = () => {
           <img className="chef" src={`${process.env.PUBLIC_URL}/img/chef.png`} alt="chef" />
           <img src={`${process.env.PUBLIC_URL}/img/refrige.png`} alt="refrige" />
         </div>
+        {/* 구현중 */}
       </LoadingContainer>
     </>
+    
   );
+  
 };
+
 
 const LoadingContainer = styled.div`
   width: 600px;

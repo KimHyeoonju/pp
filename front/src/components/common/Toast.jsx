@@ -26,7 +26,7 @@ export const Toast = ({ isActive, OffToast }) => {
 const ToastContainer = styled.div`
   width: 360px;
   text-align: center;
-  border: 1px solid ${({ theme }) => theme.color.orange};
+  border: 1px solid ${({ theme }) => theme.color.waterblue};
   background-color: #fdf8ed;
   color: ${({ theme }) => theme.color.black};
   ${({ theme }) => theme.font.xlarge}

@@ -15,10 +15,8 @@ import {
   SignupPass,
   Refrige,
   Bookmark,
-  ShoppingList,
   SignupNick,
   Mypage,
-  TeamIntro, 
 } from "./pages";
 import { Header } from "./components";
 
@@ -43,8 +41,6 @@ function App() {
             <Route path="/detail/:id" element={<RecipeDetail />} />
             <Route path="/refrige" element={<Refrige />} />
             <Route path="/bookmark" element={<Bookmark />} />
-            <Route path="/shoppinglist" element={<ShoppingList />} />
-            <Route path="/teamIntro" element={<TeamIntro />} />
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/signupPass" element={<SignupPass />} />

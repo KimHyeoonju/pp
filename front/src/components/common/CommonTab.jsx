@@ -16,7 +16,7 @@ const useStyles = makeStyles(() => ({
   activeTab: {
     fontSize: "22px",
     fontWeight: "bold",
-    color: "orange",
+    color: "waterblue",
     textTransform: "none",
   },
 }));
@@ -33,7 +33,7 @@ const CommonTab = () => {
         onChange={handleChangeTab}
         aria-label="disabled tabs example"
         style={{ backgroundColor: "white" }}
-        TabIndicatorProps={{ style: { background: "orange" } }}
+        TabIndicatorProps={{ style: { background: "waterblue" } }}
         classes={{ indicator: classes.customStyleOnTab }}
         value={value}
         centered>

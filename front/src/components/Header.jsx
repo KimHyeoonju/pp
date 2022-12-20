@@ -79,7 +79,9 @@ const Header = () => {
             navigate("/");
             setMenutoggle(false);
           }}>
+            
           <Img />
+          
           <div className="logo">냉장고 매니저</div>
         </LogoWrapper>
         <div className="nav">
@@ -106,7 +108,7 @@ const Header = () => {
           ) : (
             <>
               <StyledLink to="/login" className="auth">
-                <Button text="Login / Sign up" bgcolor="skyblue" txtcolor="black" />
+                <Button text="로그인 / 회원가입" bgcolor="skyblue" txtcolor="black" />
               </StyledLink>
               <StyledLink
                 to="/login"

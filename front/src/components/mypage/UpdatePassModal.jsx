@@ -117,7 +117,7 @@ export const UpdatePassModal = ({ handleClosePass }) => {
                   <span style={{ textDecoration: "none" }}>
                     <Button
                       text={"수정하기"}
-                      bgcolor={"orange"}
+                      bgcolor={"waterblue"}
                       txtcolor={"white"}
                       round={true}
                       width={"280px"}

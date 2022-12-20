@@ -40,5 +40,5 @@ const Tap = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: ${(props) => props.handleTap && "4px solid" + props.theme.color.orange};
+  border-bottom: ${(props) => props.handleTap && "4px solid" + props.theme.color.waterblue};
 `;

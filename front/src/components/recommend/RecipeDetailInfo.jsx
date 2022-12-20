@@ -6,7 +6,6 @@ import { ReactComponent as IconFilledFavorite } from "../../asset/icon/favoriteB
 import { ReactComponent as IconThumbUp } from "../../asset/icon/thumbUp.svg";
 import { ReactComponent as Iconbasket } from "../../asset/icon/basket.svg";
 import { saveBookmark } from "../../api/bookmark";
-import { lackingrds } from "../../api/shoppinglist";
 import { useRecoilValue } from "recoil";
 import { loginState } from "../../store/atom";
 
@@ -31,12 +30,6 @@ export const RecipeDetailInfo = ({ data, handleLike }) => {
 
   const ingredient = data.ingredient.sort((a, b) => b.inRefrige - a.inRefrige);
 
-  const addLackingrds = async (ingredients) => {
-    const response = await lackingrds(ingredients);
-    if (response.status === 200) {
-      return response;
-    }
-  };
 
   const handleBookmark = () => {
     if (!login) {
@@ -52,7 +45,6 @@ export const RecipeDetailInfo = ({ data, handleLike }) => {
       alert("로그인 후 이용이 가능합니다!");
       return;
     }
-    addLackingrds(lackIngredient);
     alert("냉장고에 없는 재료를 장보기 리스트에 추가했습니다!");
   };
 
@@ -301,7 +293,7 @@ const DetailIngredient = styled.span`
 `;
 
 const IngredientName = styled.span`
-  background-color: ${(props) => (props.inRefrige ? props.theme.color.orange : props.theme.color.white)};
+  background-color: ${(props) => (props.inRefrige ? props.theme.color.waterblue : props.theme.color.white)};
   color: ${(props) => (props.inRefrige ? props.theme.color.white : props.theme.color.lightblack)};
   border: 1px solid ${(props) => (props.inRefrige ? props.theme.color.white : props.theme.color.darkgray)};
   border-radius: 4px;

@@ -11,7 +11,6 @@ import {
   bookmarkRecipesState,
   loginState,
 } from "../../store/atom";
-import { ImageFileUpload } from "../common/ImageFileUpload";
 import { Button } from "../common/Button";
 import { ReactComponent as IconClose } from "../../asset/icon/close.svg";
 import { ReactComponent as IconInfo } from "../../asset/icon/info.svg";
@@ -180,7 +179,7 @@ export const Recommend = ({ page, handleAddImage, getIngredient }) => {
       return ingredient.data.map((item, idx) => {
         return (
           <div className="tag" key={idx}>
-            <Button text={item.content} bgcolor="orange" txtcolor="white" round={true} padding="0 40px 0 20px" />
+            <Button text={item.content} bgcolor="waterblue" txtcolor="white" round={true} padding="0 40px 0 20px" />
             <IconClose
               className="closeIcon"
               onClick={() => {
@@ -197,29 +196,17 @@ export const Recommend = ({ page, handleAddImage, getIngredient }) => {
     <section>
       {page && <MobileTitle text={"레시피 추천받기"} />}
       <RecommendContainer>
-        {page ? (
-          <>
-            <h2>재료 조합으로 레시피를 추천해드립니다!</h2>
-            <p>
-              이미지를 업로드 하거나, 원하는 재료를 입력하면
-              <br />
-              재료 조합으로 만들수 있는 레시피를 찾아드립니다!
-            </p>
-          </>
-        ) : (
-          <h2>사진으로 추가하기</h2>
-        )}
-        <ImageFileUpload
-          width="600px"
-          height="400PX"
-          requestRecognition={requestRecognition}
-          setIngredient={setIngredient}
-        />
+        <h2>재료 조합으로 레시피를 추천해드립니다!</h2>
+        <p>
+          나의 냉장고에서 재료를 선택하거나, 원하는 재료를 입력하면
+          <br />
+          재료 조합으로 만들수 있는 레시피를 찾아드립니다!
+        </p>
         <div className="btnContainer">
           <div className="btnGroup">
             {AddToggle ? (
               <span onClick={handleToggle} className="addtag">
-                <Button text="추가하기" bgcolor="orange" txtcolor="white" round={true} />
+                <Button text="추가하기" bgcolor="waterblue" txtcolor="white" round={true} />
               </span>
             ) : (
               <>
@@ -287,10 +274,12 @@ const RecommendContainer = styled.div`
     justify-content: center;
     .addtag {
       display: inline-block;
+      margin-top : 32px;
       margin-bottom: 32px;
     }
     .tags {
       width: 80%;
+      margin-top: 20px;
       margin-bottom: 20px;
       display: flex;
       flex-wrap: wrap;
@@ -315,7 +304,7 @@ const RecommendContainer = styled.div`
         height: 44px;
         padding-left: 24px;
         border-radius: 9999px;
-        border: 1px solid ${({ theme }) => theme.color.orange};
+        border: 1px solid ${({ theme }) => theme.color.waterblue};
         margin-bottom: 20px;
       }
     }

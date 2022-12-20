@@ -51,7 +51,7 @@ const SignupNick = () => {
           <span>닉네임을 입력해주세요.</span>
           <form onSubmit={handleClick} style={{ textAlign: "center" }}>
             <LoginInput type="text" name="nickname" placeholder="닉네임" onChange={handleChange} value={nickname} />
-            <Button width="300px" height="60px" text="가입하기" bgcolor="orange" txtcolor="white" round="round" />
+            <Button width="300px" height="60px" text="가입하기" bgcolor="waterblue" txtcolor="white" round="round" />
           </form>
         </StInput>
       </StWrapper>

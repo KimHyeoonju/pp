@@ -33,7 +33,7 @@ export const AlertLoginModal = ({ text, page, btnText, handleClick }) => {
                   }}>
                   <Button
                     text="로그인 하러가기"
-                    bgcolor="orange"
+                    bgcolor="waterblue"
                     txtcolor="white"
                     round={true}
                     width="280px"

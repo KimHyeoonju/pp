@@ -217,7 +217,7 @@ const Refrige = () => {
         />
         <FindRecipe onClick={handleFindRecipe}>
           <img src={menuBook} alt="menuBook" />
-          <div className="findRecipeText">레시피 추천받기</div>
+          <div className="findRecipeText">레시피 추천</div>
         </FindRecipe>
         <RefrigeTitle>
           <h2>나의 냉장고</h2>

@@ -59,7 +59,7 @@ export const UpdateNameModal = ({ handleCloseName }) => {
                   onChange={handleChange}></UpadateInput>
                 <br />
                 <span style={{ textDecoration: "none" }} onClick={handleSubmit}>
-                  <Button text="수정하기" bgcolor="orange" txtcolor="white" round={true} width="280px" height="48px" />
+                  <Button text="수정하기" bgcolor="waterblue" txtcolor="white" round={true} width="280px" height="48px" />
                 </span>
               </div>
             </div>

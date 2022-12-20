@@ -33,7 +33,7 @@ const Signup = () => {
           <span>로그인에 사용할 이메일을 작성해주세요.</span>
           <form onSubmit={handleClick} style={{ textAlign: "center" }}>
             <LoginInput type="text" name="email" placeholder="이메일" onChange={handleChange} value={email} />
-            <Button width="300px" height="60px" text="다음" bgcolor="orange" txtcolor="white" round="round" />
+            <Button width="300px" height="60px" text="다음" bgcolor="waterblue" txtcolor="white" round="round" />
           </form>
         </StInput>
       </StWrapper>
@@ -45,7 +45,7 @@ export default Signup;
 
 const Stbody = styled.div`
   position: absolute;
-  top: 5rem;
+/*   top: 5rem; */
   left: 0;
   width: 100%;
   height: 100%;

@@ -66,7 +66,7 @@ const Result = () => {
 
   return (
     <>
-      <MobileTitle text={"레시피 추천받기"} />
+      <MobileTitle text={"레시피 추천"} />
       <ResultContainer>
         <h3>재료를 최대한 많이 사용하는 레시피입니다!</h3>
         <RecipeListResult Recipes={mainRecipes} />

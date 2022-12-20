@@ -56,7 +56,7 @@ export const AddByText = ({ handleAddText, addIngredientByText }) => {
                 placeholder="재료명을 한글로 입력해주세요."
               />
               <span type="submit">
-                <Button text="추가하기" bgcolor="orange" txtcolor="white" round={true} width="23rem" />
+                <Button text="추가하기" bgcolor="waterblue" txtcolor="white" round={true} width="23rem" />
               </span>
             </form>
           </div>

@@ -58,7 +58,7 @@ const Bookmark = () => {
               <br /> 나에게 딱 맞는 레시피 추천을 받을 수 있어요!
               <br />
               <Link to="/recommend" style={{ textDecoration: "none" }} className="goRecommend">
-                <Button text="레시피 추천 받기 ->" bgcolor="orange" txtcolor="white" round={true} />
+                <Button text="레시피 추천 받기 ->" bgcolor="waterblue" txtcolor="white" round={true} />
               </Link>
             </div>
           )}

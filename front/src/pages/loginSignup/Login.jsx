@@ -22,7 +22,7 @@ const useStyles = makeStyles(() => ({
   activeTab: {
     fontSize: "22px",
     fontWeight: "bold",
-    color: "orange",
+    color: "waterblue",
     textTransform: "none",
   },
 }));
@@ -81,7 +81,7 @@ const Login = () => {
           aria-label="disabled tabs example"
           centered
           style={{ backgroundColor: "white" }}
-          TabIndicatorProps={{ style: { background: "orange" } }}
+          TabIndicatorProps={{ style: { background: "waterblue" } }}
           classes={{ indicator: classes.customStyleOnTab }}
           value={value}>
           <Tab
@@ -117,7 +117,7 @@ const Login = () => {
               width="300px"
               height="60px"
               text="로그인"
-              bgcolor="orange"
+              bgcolor="waterblue"
               txtcolor="white"
               round="round"
               type="submit"
@@ -133,7 +133,7 @@ const Login = () => {
 export default Login;
 const Stbody = styled.div`
   position: absolute;
-  top: 80px;
+/*   top: 80px; */
   left: 0;
   width: 100%;
   height: 100%;
@@ -156,8 +156,6 @@ const StWrapper = styled.div`
     left: 20px;
     top: 58px;
     }
-  }
-
 `;
 
 const StAppBar = styled(Tabs)`

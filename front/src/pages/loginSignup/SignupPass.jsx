@@ -219,7 +219,7 @@ const PassButton = styled.button`
   justify-content: center;
   border: none;
   border-radius: 999px;
-  background-color: ${({ theme }) => theme.color.orange};
+  background-color: ${({ theme }) => theme.color.waterblue};
   color: ${({ theme }) => theme.color.white};
   cursor: ${(props) => (props.cursor ? props.cursor : "pointer")};
   ${media.mobile} {

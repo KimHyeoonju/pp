@@ -3,7 +3,7 @@ const color = {
   black: "#3a3a3a",
   white: "#fff",
   skyblue: "#E1F5FE",
-  orange: "#F7941E",
+  waterblue: "#4aa8d8",
   purple: "#7E83D2",
   green: "#5AB66A",
   lightgray: "#f5f5f5",
